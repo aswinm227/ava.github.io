@@ -1,0 +1,90 @@
+/* Reset some default browser styles for padding and margin */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the body with a background color and text color */
+h1 {
+    font-size: 26px; /* Adjust the font size for mobile */
+}
+
+body {
+    background-color: #4abcd3;
+    color: #fffdfd;
+    font-size: 16px; /* Adjust the font size for mobile */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+   
+a   {
+    color: white;
+    text-decoration: none;
+    padding: 5px
+    
+}
+header {
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+main {
+    padding: 10px;
+    text-align: center;
+}
+.gap    {
+    height: 10px
+}
+#contact    {
+    font-size: 15px
+}
+
+.Heading_Grid {
+    border-radius: 10px;
+    opacity: 75%;
+    padding: 10px;
+    background-color: black;
+}
+.Heading_Grid_P{
+    border-radius: 10px;
+    opacity: 100%;
+    font-size: 18px; /* Adjust the font size for mobile */
+    color: white;
+ 
+}
+
+.img_class_mainpage {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: block; /* Stack grid items vertically on mobile */
+    background-color: #f0f0f0;
+}
+
+.grid-item {
+    background-color: #ccc;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px; /* Adjust the font size for mobile */
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 10px;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
